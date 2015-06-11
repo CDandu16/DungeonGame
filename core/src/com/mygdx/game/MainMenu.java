@@ -6,19 +6,18 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.mygdx.game.GameScreen;
 
 
 /**
  * Created by Chaitu on 4/25/2015.
  */
 public class MainMenu implements Screen {
-
-    final Life game;
+    //main menu of class needs nicer graphics and what not
+    final GameController game;
     OrthographicCamera camera;
     private Texture backgroundTexture;
 
-    public MainMenu(final Life gam){
+    public MainMenu(final GameController gam){
         game = gam;
         backgroundTexture = new Texture(Gdx.files.internal("sprite.png"));
     }

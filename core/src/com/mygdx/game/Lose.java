@@ -10,10 +10,10 @@ import com.badlogic.gdx.graphics.Texture;
  * Created by Chaitu on 4/25/2015.
  */
 public class Lose implements Screen {
-    final Life game;
+    final GameController game;
     private Texture backgroundTexture;
     public GameScreen score;
-    public Lose(final Life gam){
+    public Lose(final GameController gam){
         game = gam;
         backgroundTexture = new Texture(Gdx.files.internal("sprite.png"));
     }
