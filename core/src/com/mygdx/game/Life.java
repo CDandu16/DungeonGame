@@ -10,7 +10,7 @@ import com.mygdx.game.GameScreen;
  * Created by Chaitu on 4/25/2015.
  */
 public class Life extends Game {
-
+//This controles the whole gameflow from main menu screen to game to you lose screen
     public SpriteBatch batch;
     public BitmapFont font;
 
