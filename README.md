@@ -10,4 +10,6 @@ https://github.com/libgdx/libgdx/wiki/Gradle-and-Intellij-IDEA
 4). better graphcis
 5). better music
 6). make sure bubbles never go upwards
-6). note any bugs you see here
+7). add ads to you lose screen
+8). fix all the game screens to look better
+9). note any bugs you see here
